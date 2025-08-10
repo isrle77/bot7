@@ -1,7 +1,5 @@
 {
   "name": "bot7",
   "version": "1.0.0",
-  "dependencies": {
-    "some-package": "^1.5.3"
-  }
+  "dependencies": {}
 }
