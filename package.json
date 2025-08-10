@@ -10,14 +10,3 @@
     "flowise": "^1.7.0"
   }
 }
-
-
-git init
-git add .
-git commit -m "Initial commit - Flowise project"
-git branch -M main
-git remote add origin https://github.com/isrle77/bot7.git
-git push -u origin main
-
-
-https://github.com/USERNAME/flowise-chatbot.git
