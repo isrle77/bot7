@@ -1,5 +1,13 @@
 {
-  "name": "bot7",
+  "name": "my-flowise-project",
   "version": "1.0.0",
-  "dependencies": {}
+  "scripts": {
+    "start": "npx flowise start"
+  },
+  "dependencies": {
+    "flowise": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
