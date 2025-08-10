@@ -1,0 +1,23 @@
+{
+  "name": "my-flowise-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "flowise start"
+  },
+  "dependencies": {
+    "flowise": "^1.5.3"
+  }
+}
+
+
+https://github.com/isrle77/bot7.git
+
+
+
+git init
+git add .
+git commit -m "Initial commit with Flowise chatflow"
+git branch -M main
+git remote add origin https://github.com/isrle77/bot7.git
+
+git push -u origin main
