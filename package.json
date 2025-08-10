@@ -1,13 +1,23 @@
 {
-  "name": "my-flowise-project",
+  "name": "flowise-app",
   "version": "1.0.0",
+  "description": "Flowise with preloaded flow",
+  "main": "index.js",
   "scripts": {
-    "start": "npx flowise start"
+    "start": "npx flowise start --FLOWISE_FLOW_PATH ./flows/chatbot.json --PORT 3000"
   },
   "dependencies": {
-    "flowise": "^1.5.3"
-  },
-  "engines": {
-    "node": ">=18"
+    "flowise": "^1.7.0"
   }
 }
+
+
+git init
+git add .
+git commit -m "Initial commit - Flowise project"
+git branch -M main
+git remote add origin https://github.com/isrle77/bot7.git
+git push -u origin main
+
+
+https://github.com/USERNAME/flowise-chatbot.git
